@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+#assignment-instructions {
+  background: #ff52ff;
+  font-family: sans-serif;
+}
+
+code {
+  color: red;
+  font-family: monospace;
+}
+
+.second-li-code {
+  color: green;
+}
+
+ol {
+  font-family: serif;
+}
+
+li {
+  font-family: inherit;
+}
+
+li + li {
+  background-color: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}
