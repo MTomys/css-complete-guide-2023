@@ -1,0 +1,29 @@
+body {
+  background: black;
+}
+
+body > div {
+  display: inline-block;
+}
+
+.box-one {
+  padding: 4rem 3rem 2rem 1rem;
+  margin: 1rem 2rem 3rem 4rem;
+  border: 1px dashed rgb(3, 177, 3);
+  color: rgb(3, 177, 3);
+  height: 300px;
+  width: 50%;
+  visibility: hidden;
+}
+
+.box-two {
+  padding: 4rem 3rem 2rem 1rem;
+  margin: 1rem 2rem 3rem 4rem;
+  border: 1px dashed rgb(3, 177, 3);
+  color: rgb(3, 177, 3);
+}
+
+div:last-of-type:hover {
+  border-color: rgb(3, 225, 3);
+  color: rgb(3, 225, 3);
+}
