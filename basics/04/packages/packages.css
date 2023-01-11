@@ -1,0 +1,36 @@
+.plan-container {
+  background: rgb(168, 246, 183);
+  border: 2px solid green;
+  width: 80%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.plan-container a {
+  text-decoration: none;
+  display: block;
+}
+
+.plan-container:hover,
+.plan-container:active {
+  border: 2px solid red;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.plan-title {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.plan-subtitle {
+  color: grey;
+}
+
+.plan-description {
+  background: white;
+  color: black;
+  display: inline-block;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
