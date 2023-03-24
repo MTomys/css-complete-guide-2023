@@ -1,0 +1,41 @@
+.div-container {
+  width: max-content;
+  margin: 0 auto;
+}
+
+body {
+  height: 5000px;
+}
+
+.mydiv {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+.div-one {
+  position: absolute;
+  top: 50dvh;
+  left: 50vw;
+}
+
+.div-two {
+  position: fixed;
+  top: 20rem;
+  left: 20rem;
+}
+
+.div-three {
+  position: relative;
+  top: 350px;
+  right: 35px;
+}
+
+.littlediv {
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
